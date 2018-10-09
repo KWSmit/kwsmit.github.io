@@ -1,13 +1,23 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background: #2c2b2b
 }
-nav ul, footer ul {
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-size: 1.5em;
+    color: #2c2b2b;
+    background: #477fda;
 }
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-size: 1.5em;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -19,27 +29,71 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a.nav {
+    color: #2c2b2b;
+}
+a.nav:hover {
+    color: #050505;
+    text-decoration: none;
+}
+
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-style: italic;
+    font-weight: normal;
+    color: #477fda
+}
+h2 {
+    font-size: 2.2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-style: italic;
+    font-weight: normal;
+    color: #477fda
 }
 p {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1.4em;
-    color: #333;
+    color: #999;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    border-top: 1px solid #73a1eb;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
+    color: #999
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 20px auto 40px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
+    color: #73a1eb
 }
 
 ul.posts li {
     list-style: none;
+}
+
+/* .big and .small are used to display text in header of website */
+.big {
+    font-size: 4em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-style: italic;
+    font-weight: normal;
+    color: #477fda
+}
+.small {
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-style: normal;
+    text-decoration: none;
+    color: #999
+}
+
+/* Properties of website logo */
+#logo {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
 }
