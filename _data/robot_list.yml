@@ -1,4 +1,4 @@
 robot_list_title: Robot projects
 robots:
 - title: Robot 1
-  url: robot_1.md
+  url: robot_1.html
