@@ -1,21 +1,33 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background: #2c2b2b
+    background: #2c2b2b;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.3em;
+    color: #999;
 }
+nav {
+    padding-top: 5px;
+}
+
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #2c2b2b;
     background: #477fda;
 }
+
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-size: 1.5em;
+}
+
+li.nav {
+    float: left;
 }
 
 nav ul li, footer ul li {
@@ -26,8 +38,14 @@ a {
     text-decoration: none;
     color: #999;
 }
+
+a:visited {
+    text-decoration: none;
+    color: #999;
+}
+
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a.nav {
     color: #2c2b2b;
@@ -35,6 +53,12 @@ a.nav {
 a.nav:hover {
     color: #050505;
     text-decoration: none;
+}
+
+.block {
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #999;
 }
 
 h1 {
@@ -49,12 +73,13 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-style: italic;
     font-weight: normal;
-    color: #477fda
+    color: #477fda;
+    padding-bottom: 10px;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.4em;
+    /* line-height: 1.4em; */
     color: #999;
 }
 footer {
@@ -64,15 +89,43 @@ footer {
     color: #999
 }
 
+/* list style for posts */
 ul.posts { 
     margin: 20px auto 40px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #73a1eb
+}
+
+.row {
+    padding-bottom: 10px;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+/* style for listing robots */
+ul.robots { 
+    margin: 20px auto 40px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.3em;
+    color: #999;
+}
+ul.robots li {
+    list-style: none;
+    color: #73a1eb;
+}
+a.robots {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.3em;
+    color: #73a1eb;
+}
+
+td.robots {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.3em;
+    color: #999;
 }
 
 /* .big and .small are used to display text in header of website */

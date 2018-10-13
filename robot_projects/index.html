@@ -1,9 +1,39 @@
 ---
 layout: default
+title: Robots & more
 ---
 	<h2>{{ site.data.robot_list.robot_list_title }}</h2>
-	<ul>
+	<!--
+	<ul class="robots">
 		{% for item in site.data.robot_list.robots %}
-	    <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+			<li><a class="robots" href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a> - {{ item.description }}</li>-->
+			<!-- <div>{{ item.description }}</div> -->
+	<!--
 	  {% endfor %}
 	</ul>
+	-->
+	<!--
+	<table style="width:100%">
+		<tr>
+			<th>Name</th>
+			<th>Picture</th>
+			<th>Description</th>
+		</tr>
+		{% for item in site.data.robot_list.robots %}
+		    <tr>
+				<td><a class="robots" href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></td>
+				<td><img src="/images/logo_small.png"></td>
+			    <td class="robots">{{ item.description }}</td>
+			</tr>
+		{% endfor %}
+	</table>
+	-->
+	{% for item in site.data.robot_list.robots %}
+	    <div class="container-fluid">
+		    <div class="row">
+				<div class="col-md-2"><a class="robots" href="{{ item.url }}" alt="{{ item.title }}">{{ item.robot }}</a></div>
+				<div class="col-md-2"><img src="/images/logo_small.png" class="img-rounded" alt="Logo" padding-bottom="60px" width="75" height="75"></div>
+				<div class="col-md-8"><p>{{ item.description }}</p></div>
+			</div>
+	    </div>
+	{% endfor %}

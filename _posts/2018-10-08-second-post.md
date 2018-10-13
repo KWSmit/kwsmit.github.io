@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Second post for testing purposes."
+title: "Robots & more"
+subject: "Second post for testing purposes."
 date: 2018-10-08
 ---
 
