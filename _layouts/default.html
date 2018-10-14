@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 	<html>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<head>
 			<title>{{ page.title }}</title>
@@ -7,26 +8,51 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</head>
 		<body>
 			<header>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-1"><img src="/images/logo_small.png" class="img-rounded" alt="Logo" width="75" height="75"></div>
-					    <div class="col-md-11"><span class="big"> Robots & more </span><span class="small">by Kees Smit</span></div>
+						<div class="col-lg-2"><img src="/images/logo_small.png" class="img-rounded" alt="Logo" width="75" height="75"></div>
+					    <div class="col-lg-10"><span class="big">Robots & more </span><span class="small">by Kees Smit</span></div>
 					</div>
 				</div>
-
-			    <nav>
-	    		    <ul class="nav">
-	        		    <li class="nav"><a class="nav" href="/">Home</a></li>
-					    <li class="nav"><a class="nav" href="/about.html">About me</a></li>
-                        <li class="nav"><a class="nav" href="/blog">Blog</a></li>					
-	        		    <li class="nav"><a class="nav" href="/robot_projects">Robots</a></li>
-	        		    <li class="nav"><a class="nav" href="/more">More</a></li>
-	    		    </ul>
-			    </nav>
-		    </header>
+				<!--
+                <div class="container-fluid"></div>
+			        <nav>
+	    		        <ul class="nav">
+	        		        <li class="nav"><a class="nav" href="/">Home</a></li>
+					        <li class="nav"><a class="nav" href="/about.html">About me</a></li>
+                            <li class="nav"><a class="nav" href="/blog">Blog</a></li>					
+	        		        <li class="nav"><a class="nav" href="/robot_projects">Robots</a></li>
+	        		        <li class="nav"><a class="nav" href="/more">More</a></li>
+	    		        </ul>
+					</nav>
+				</div> -->
+				<nav class="navbar navbar-default navbar-custom">
+					<div class="container-fluid">
+					  <div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>                        
+						</button>
+					  </div>
+					  <div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+	        	  <li><a href="/">Home</a></li>
+					    <li><a class="nav" href="/about.html">About me</a></li>
+              <li><a class="nav" href="/blog">Blog</a></li>					
+	        		<li><a class="nav" href="/robot_projects">Robots</a></li>
+	        		<li><a class="nav" href="/more">More</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </nav>
+				  
+			</header>
 
 			<div class="container-fluid">
 			

@@ -6,6 +6,32 @@ body {
     font-size: 1.3em;
     color: #999;
 }
+nav {
+    padding-top: 5px;
+}
+
+.navbar-default {
+    background: #477fda;
+    border-color: #477fda;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.2em;
+    color: #2c2b2b;
+}
+.navbar-collapse {
+    color:#2c2b2b;
+}
+.navbar-custom {
+    color: #2c2b2b!important;
+    background: #477fda;
+}
+nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2em;
+    color: #2c2b2b;
+    background: #477fda;
+}
 
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -14,6 +40,14 @@ footer ul {
     font-size: 1.5em;
 }
 
+li.nav {
+    float: left;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
 a {
     text-decoration: none;
     color: #999;
@@ -25,6 +59,13 @@ a:visited {
 }
 
 a:hover {
+    text-decoration: none;
+}
+a.nav {
+    color: #2c2b2b;
+}
+a.nav:hover {
+    color: #ee1010;
     text-decoration: none;
 }
 
@@ -41,7 +82,6 @@ h1 {
     font-weight: normal;
     color: #477fda
 }
-
 h2 {
     font-size: 2.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -50,14 +90,12 @@ h2 {
     color: #477fda;
     padding-bottom: 10px;
 }
-
 p {
     font-size: 1.3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     /* line-height: 1.4em; */
     color: #999;
 }
-
 footer {
     border-top: 1px solid #73a1eb;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -120,28 +158,9 @@ td.robots {
     color: #999
 }
 
-.navbar-default {
-    background: #477fda;
-    border-color: #477fda;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.2em;
-    color: #2c2b2b;
-}
-.navbar-collapse {
-    color:#2c2b2b;
-}
-
-.navbar-custom {
-    background: #477fda;
-    font-size: 1.2em;
-    color: #2c2b2b;
-}
-
-
-.navbar-custom .navbar-nav > li > a {
-    color:#2c2b2b;
-}
-
-.navbar-custom .navbar-nav > li > a:hover {
-    color:#73a1eb;
+/* Properties of website logo */
+#logo {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
 }
