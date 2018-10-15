@@ -97,7 +97,6 @@ a.robots {
     font-size: 1.3em;
     color: #73a1eb;
 }
-
 td.robots {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.3em;
@@ -120,6 +119,7 @@ td.robots {
     color: #999
 }
 
+/* adjust default bootstrap navbar */
 .navbar-default {
     background: #477fda;
     border-color: #477fda;
@@ -137,11 +137,14 @@ td.robots {
     color: #2c2b2b;
 }
 
-
 .navbar-custom .navbar-nav > li > a {
     color:#2c2b2b;
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
     color:#73a1eb;
+}
+/* No border for code block */
+pre {
+    border: 0px;
 }
