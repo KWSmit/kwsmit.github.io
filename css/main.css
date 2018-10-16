@@ -1,6 +1,8 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 90%;
     background: #2c2b2b;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.3em;
@@ -52,6 +54,8 @@ h2 {
 }
 
 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 1.3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     /* line-height: 1.4em; */
@@ -144,6 +148,13 @@ td.robots {
 .navbar-custom .navbar-nav > li > a:hover {
     color:#73a1eb;
 }
+.navbar-brand {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /* No border for code block */
 pre {
     border: 0px;
