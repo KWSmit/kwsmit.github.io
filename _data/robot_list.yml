@@ -1,12 +1,19 @@
 robot_list_title: Robot projects
 robots:
 - title: Robots & more
-  robot: Tic-Tac-Toe-ps
-  description: This is a brief description for this robot. This makes it easier for the reader to choose the robot of his interest.
-  url: robot_1.html
+  robot: Omniwheel robot
+  description: A robot using omniwheels
+  image: /images/omniwheel.jpg
+  url: omniwheel_robot.html
 
 - title: Robots & more
-  robot: Robot 2
-  description: This is a brief description for this robot. This makes it easier for the reader to choose the robot of his interest.
-  url: robot_2.html
-  
+  robot: Tic Tac Toe Version 1
+  description: My first implementation of a tic-tact-toe robot game.
+  image: /images/tictactoe.jpg
+  url: tictactoe_1.html
+
+- title: Robots & more
+  robot: Pixy cam pan/tilt
+  description: A simple implementation for a pan and tilt mechanism for the Pixycam.
+  image: /images/pan_tilt_pixy.jpg
+  url: pixy_pan_tilt.html

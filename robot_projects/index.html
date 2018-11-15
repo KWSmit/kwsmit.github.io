@@ -7,9 +7,10 @@ title: Robots & more
 	{% for item in site.data.robot_list.robots %}
 	    <div class="container-fluid">
 		    <div class="row">
-				<div class="col-md-2"><a class="robots" href="{{ item.url }}" alt="{{ item.title }}">{{ item.robot }}</a></div>
-				<div class="col-md-2"><img src="/images/logo_small.png" class="img-rounded" alt="Logo" padding-bottom="60px" width="75" height="75"></div>
-				<div class="col-md-8"><p>{{ item.description }}</p></div>
+				<div class="col-md-2"><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.robot }}</a></div>
+				<div class="col-md-1"><a href="{{ item.url }}"><img src="{{ item.image }}" class="img-rounded" alt="Logo" padding-bottom="60px" width="75" height="75"></a></div>
+				<div class="col-md-9">{{ item.description }}</div>
 			</div>
 	    </div>
 	{% endfor %}
+<br>
