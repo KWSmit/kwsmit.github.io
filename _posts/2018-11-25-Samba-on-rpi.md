@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Robots & more"
-subject: "Using Samba on Raspberry Pi 3B+"
+subject: "Using Samba on RPi 3B+"
 date: 2018-11-25
 ---
 

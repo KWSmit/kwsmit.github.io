@@ -1,6 +1,2 @@
 rpi_list_title: Robot projects
 rpi_items:
-- title: Robots & more
-  date: 25 Nov 2018
-  subject: Using Samba on Raspberry Pi 3B+
-  url: rpi_samba.html

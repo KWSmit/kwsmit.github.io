@@ -26,8 +26,8 @@ between the moves of the human player or himself. Moves are scanned by the
 LEGO colorsensor in Ambient Light Intensity Mode. The difference in value 
 between crosses and open circles is to small to let the robot determine the 
 right moves. Lighting conditions also have influence on the sensor reading. 
-This is still something to improve. When you watch the video of MIke Koulouras 
-you see that is can be done…
+This is still something to improve. When you watch the video of Mike Koulouras 
+you see that it can be done…
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MIcjnmuTxCk" frameborder="0" allowfullscreen></iframe>
 
