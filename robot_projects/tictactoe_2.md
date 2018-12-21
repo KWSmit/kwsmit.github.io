@@ -10,7 +10,7 @@ my <a href="/robot_projects/tictactoe_1.html" target="_blank">first</a> one.
 For this one I used the power of a Raspberry Pi 3B by 
 using the PiStorms v2 from mindsensors.com.
 
-<img src="/images/KSmTicTacToePS1.jpg" width="520">
+<img src="/images/KSmTicTacToePS.jpg" width="520">
 
 The program is written in Python on the ev3dev operating system. You'll 
 find the code on 
@@ -42,17 +42,17 @@ adust the settings for all LEGO motors and sensors (ports, speed_sp,
 position_sp, etc.) and for the picamera.
 
 Overview<br>
-<img src="/images/IMG_3442.jpg" width="500"><br>
+<img src="/images/ttt2_1.jpg" width="500"><br>
 <br>
 Picamera<br>
-<img src="/images/IMG_3447.jpg" width="500"><br>
+<img src="/images/ttt2_2.jpg" width="500"><br>
 <br>
 Turntable (bottom view)<br>
-<img src="/images/IMG_3438.jpg" width="500"><br>
-<img src="/images/IMG_3439.jpg" width="500"><br>
-<img src="/images/IMG_3448.jpg" width="500"><br>
+<img src="/images/ttt2_3.jpg" width="500"><br>
+<img src="/images/ttt2_4.jpg" width="500"><br>
+<img src="/images/ttt2_5.jpg" width="500"><br>
 <br>
 Pen mechanism<br>
-<img src="/images/IMG_3441.jpg" width="500"><br>
-<img src="/images/IMG_3449.jpg" width="500"><br>
-<img src="/images/IMG_3450.jpg" width="500"><br>
+<img src="/images/ttt2_6.jpg" width="500"><br>
+<img src="/images/ttt2_7.jpg" width="500"><br>
+<img src="/images/ttt2_8.jpg" width="500"><br>
