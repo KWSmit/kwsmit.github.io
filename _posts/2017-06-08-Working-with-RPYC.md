@@ -130,7 +130,8 @@ Now you can turn to your PC.
 import rpyc
 
 conn = rpyc.classic.connect('$$$.$$$.$.$$')
-conn.modules.sys.path.append('/home/robote = conn.modules.rpyc_classic_ev3
+conn.modules.sys.path.append('/home/robot')
+e = conn.modules.rpyc_classic_ev3
 e.speak_message('Listen carefully, I will only tell this once')
 ```
 
