@@ -27,7 +27,7 @@ Github</a>. See the *README.md* file for more information on how to start the ap
 - Python
 - Flask
 
-<img src="/images/KSmRover.jpg" width="500">
+<img src="../../../images/KSmRover.jpg" width="500">
 
 ### Control the robot through the browser on mobile device
 
