@@ -1,6 +1,12 @@
 robot_list_title: Robot projects
 robots:
 - title: Robots & more
+  robot: KSmRover
+  description: Video robot controlled via browser on mobile device with touchscreen.
+  image: /images/KSmRover75.jpg
+  url: ksmrover.html
+
+- title: Robots & more
   robot: PiStoms Tic Tac Toe
   description: A more sophisticated tic tac toe game.
   image: /images/KSmTicTacToePS1_75.jpg
